@@ -1,6 +1,6 @@
 # Henry Yang 
 
-Investigating how different AI language models work on describing scenes and angle changes in pictures. 
+I'm a grade 9 student interested in investigating how different AI language models work on describing scenes and angle changes in pictures. 
 
 ## What I'm Researching
 
