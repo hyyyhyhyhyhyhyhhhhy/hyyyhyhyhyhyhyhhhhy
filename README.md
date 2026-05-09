@@ -12,7 +12,8 @@ Currently working on how well different language models can understand and prese
 
 - [Scene Describer 1.0](https://huggingface.co/spaces/hrnry/Camera_angle_model_lab) — Used to compare how different small language models describe the same scene. 
 - [Scene Describer 2.0](https://huggingface.co/spaces/hrnry/Scene_describer) — An upgraded version of the previous one. (generates cinematic scene descriptions from any camera angle) 
-- [The Image Editor](https://huggingface.co/spaces/hrnry/The_Image_Editor) — Edits and image regarding to text-based prompts, which is an important trasition from text generation to image generation.
+- [The Image Editor](https://huggingface.co/spaces/hrnry/The_Image_Editor) — Edits and image regarding to text-based prompts, which is an important trasition from text generation to image generation
+- [Perspective Evidence Lab](https://huggingface.co/spaces/hrnry/Perspective_evidence_lab) — Test how language models preserve spatial relationships when describing the same scene from different camera viewpoints.
 
 ## Hugging Face
 
@@ -26,13 +27,13 @@ Collection: <https://huggingface.co/collections/hrnry/henrys-collection>
 
 ## What I'm Building Now
 
-- Compare models on same prompts
-- Check spatial accuracy (left/right, depth)
-- Test viewpoint-following ability
-- Compare prompt styles
-- Add stronger models (SmolLM, Qwen)
-- Improve prompt instructions
-- Add more viewpoints
-- Log results automatically
+- Building Perspective Evidence Lab, a Hugging Face Space for testing viewpoint reasoning in language models
+- Comparing how models preserve spatial relationships across camera angles 
+- Testing small language models including distilgpt2, SmolLM2, and Qwen2.5-0.5B
+- Studying foreground/background changes, occlusion, visibility, scale, and spatial consistency in generated descriptions
+- Designing reproducible AI experiments using fixed generation settings and scoring rubrics
+- Exploring the limitations of small/free AI systems in handling genuine perspective transformation
+- Using Gradio + Hugging Face Transformers to build lightweight CPU-friendly research tools
+- Collecting evidence on how prompt structure affects viewpoint-following and spatial reasoning in AI systems
 
 
