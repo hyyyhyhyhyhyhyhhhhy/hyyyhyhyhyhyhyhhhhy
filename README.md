@@ -4,7 +4,7 @@ I'm a grade 9 student interested in investigating how different AI language mode
 
 ## What I'm Researching
 
-Currently working on how well different language models can understand and preserve spatial relationships when generating descriptions of visual scenes, especially when the viewpoint changes. Using your Scene Describer tool, you test models like distilgpt2, SmolLM, and Qwen by giving them the same scene prompt and asking them to describe it from specific camera angles (such as bird’s-eye view or low angle). The goal is to see whether the models can maintain logical relationships—like left/right, above/below, and near/far—while adapting the description to a new perspective. This investigation helps you explore whether language models are simply generating fluent text or if they demonstrate a deeper ability to reason about space and viewpoint.
+Currently working on how well different language models can understand and preserve spatial relationships when generating descriptions of visual scenes, especially when the viewpoint changes. Using The Scene Describer Hugging Face space, I test models like distilgpt2, SmolLM, and Qwen by giving them the same scene prompt and asking them to describe it from specific camera angles (such as bird’s-eye view or low angle). The goal is to see whether the models can maintain logical relationships—like left/right, above/below, and near/far—while adapting the description to a new perspective. This investigation helps me explore whether language models are simply generating fluent text or if they demonstrate a deeper ability to reason about space and viewpoint.
 
 [Read the paper-in-progress](https://github.com/hyyyhyhyhyhyhyhhhhy/The-Research-Paper-)
 
